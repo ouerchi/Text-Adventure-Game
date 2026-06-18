@@ -6,6 +6,12 @@
 // Include readline for player input
 const readline = require('readline-sync');
 
+// Display the game title
+console.log("Welcome to the Adventure Game");
+
+// Add a welcome message
+console.log("Prepare yourself for an epic journey!");
+
 // Game state variables
 let playerName = "";
 let playerHealth = 100;
@@ -23,3 +29,24 @@ console.log("\nYour quest: Defeat the dragon in the mountains!");
 playerName = readline.question("\nWhat is your name, brave adventurer? ");
 console.log("\nWelcome, " + playerName + "!");
 console.log("You start with " + playerGold + " gold.");
+
+// =========================================
+// START Lab: Battle Calculator
+// =========================================
+// Weapon damage (starts at 0 until player buys a sword)
+let weaponDamage = 0;      // Will increase to 10 when player gets a sword
+console.log("Starting weapon damage: " + weaponDamage);
+console.log("When you buy a sword, weapon damage will increase to 10!");
+
+// Monster defense (affects combat outcomes)
+let monsterDefense = 5;    // Monster's defense value
+console.log("Monster defense: " + monsterDefense);
+console.log("Monsters can withstand some damage in combat!");
+
+// Healing potion restoration (matches final implementation)
+let healingPotionValue = 30;  // How much health is restored
+console.log("Healing potion value: " + healingPotionValue);
+console.log("A potion will restore 30 health!");
+// =========================================
+// END Lab: Battle Calculator
+// =========================================
