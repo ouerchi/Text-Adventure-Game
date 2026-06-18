@@ -1,0 +1,20 @@
+{
+  "name": "text-adventure-game",
+  "version": "1.0.0",
+  "description": "A complete Text Adventure Game demonstrating the mastery of JavaScript fundamentals.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ouerchi/Text-Adventure-Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ouerchi/Text-Adventure-Game/issues"
+  },
+  "homepage": "https://github.com/ouerchi/Text-Adventure-Game#readme"
+}
